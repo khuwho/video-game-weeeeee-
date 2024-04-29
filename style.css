@@ -1,0 +1,464 @@
+body {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: #1A1460;
+  font-family: "Jersey 10", sans-serif;
+  margin: 0;
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:not(:disabled):active,
+input[type="submit"]:not(:disabled):active,
+input[type="reset"]:not(:disabled):active {
+  box-shadow: var(--border-sunken-outer), var(--border-sunken-inner);
+  padding: 2px 11px 0 13px;
+}
+
+@media (not(hover)) {
+
+  button:not(:disabled):hover,
+  input[type="submit"]:not(:disabled):hover,
+  input[type="reset"]:not(:disabled):hover {
+    box-shadow: var(--border-sunken-outer), var(--border-sunken-inner);
+  }
+}
+
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+  outline: 1px dotted #000000;
+  outline-offset: -4px;
+}
+
+button::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner {
+  border: 2px black;
+}
+
+:disabled,
+:disabled+label,
+:read-only,
+:read-only+label {
+  color: var(--button-shadow);
+}
+
+button:disabled,
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+:disabled+label {
+  text-shadow: 1px 1px 0 var(--button-highlight);
+}
+
+
+#header-nav {
+  background-color: #010081;
+  border-radius: 0px;
+  margin: 0%;
+  border: inset -1px -1px var(--window-frame),
+    inset 1px 1px var(--button-face);
+}
+
+#navbar {
+  padding: 0;
+  margin: 0;
+}
+
+.btn-min {
+  border: 2px solid #000;
+  background: #D9D9D9;
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #D9D9D9;
+  box-shadow: -4px -4px 0px 0px #828282 inset, 4px 4px 0px 0px #FFF inset;
+}
+
+.btn-min {
+  border: 2px solid #000;
+  background: #D9D9D9;
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  margin-left: auto;
+  /* This aligns the button to the rightmost */
+}
+
+.btn-up {
+  border: 5px solid #000;
+  background: #D9D9D9;
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #D9D9D9;
+  box-shadow: -4px -4px 0px 0px #828282 inset, 4px 4px 0px 0px #FFF inset;
+}
+
+.btn-scroll {
+  border: 5px solid #000;
+  background: #D9D9D9;
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #D9D9D9;
+  box-shadow: -4px -4px 0px 0px #828282 inset, 4px 4px 0px 0px #FFF inset;
+
+
+}
+
+.container {
+  margin: 0%;
+  padding: 0;
+  width: 100%;
+
+}
+
+.btn-min {
+  text-align: center;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px #000;
+  ;
+  font-size: 30px;
+  line-height: normal;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding-left: 550px;
+  margin-top: 5px;
+}
+
+
+#nav-list {}
+
+#navbar {
+  background-color: white;
+  padding: 0;
+  border-radius: 0;
+  border: 10px black;
+  margin: 0;
+  border-bottom: 2px black;
+  font-size: 25px;
+  height: 20px;
+  border-top: 5px black;
+}
+
+#phone {
+  height: 20px;
+}
+
+
+
+.title-bar {
+  font-size: 40px;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.window-body {
+  font-size: 30px;
+  text-align: center;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+
+.window4 {
+  width: 326px;
+  height: 377px;
+  border: 3px solid #000;
+  background: #F7EA4E;
+  ;
+  margin-left: 372px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+section {
+  border: #000 2px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.box1 {
+  width: 326px;
+  height: 377px;
+  flex-shrink: 0;
+  background-color: border: 3px solid #000;
+  background: #4FADE3;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 3px solid #000;
+}
+
+.box2 {
+  width: 623px;
+  height: 610px;
+  border: 3px solid #000;
+  background: #DE7FAD;
+  margin-left: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+
+.box3 {
+  width: 326px;
+  height: 377px;
+  border: 3px solid #000;
+  background: #F7EA4E;
+  ;
+  margin-left: 10px;
+  margin-top: 20px;
+
+  align-items: center;
+
+}
+
+
+.box4 {
+  background-color: #D2E220;
+  width: 326px;
+  height: 203px;
+  border: 3px solid #000;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.box5 {
+  width: 326px;
+  height: 203px;
+  border: 3px solid #000;
+  background: #D9D9D9;
+  margin-left: 10px;
+  margin-top: 30px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #D9D9D9;
+  width: 620px;
+  height: 40px;
+  border-bottom: 3px solid #000;
+}
+
+.desc{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  line-height: 30px;
+}
+
+.bar-text{
+  font-size: 30px;
+  padding-left: 20px;
+}
+.center h2{
+  text-align: center;
+  font-size: 50px;
+}
+.project-description{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  line-height: 30px;
+  color: white;
+}
+
+.text-bar-controls {
+  padding: 0;
+  margin: 0;
+}
+
+.title-bar-controls {
+  display: flex;
+}
+
+.title-bar-controls button {
+  padding: 0;
+  display: block;
+  min-width: 30px;
+  min-height: 30px;
+  border: 1px solid #000;
+  background: #D9D9D9;
+  box-shadow: -4px -4px 0px 0px #828282 inset, 4px 4px 0px 0px #FFF inset;
+}
+
+.title-bar-controls button:active {
+  padding: 0;
+}
+
+.title-bar-controls button:focus {
+  outline: none;
+}
+
+.title-bar-controls button[aria-label="Minimize"] {
+  background-image: url("icon/minimize.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 14px left 5px;
+  background-size: 15px;
+}
+
+.title-bar-controls button[aria-label="Maximize"] {
+  background-image: url("icon/maximize.svg");
+  background-repeat: no-repeat;
+  background-position: top 7px left 5px;
+  background-size: 15px;
+}
+
+.title-bar-controls button[aria-label="Close"] {
+  margin-left: 2px;
+  background-image: url('icon/close.svg');
+  background-repeat: no-repeat;
+  background-position: top 7px left 5px;
+  background-size: 15px;
+}
+
+.title-bar-controls button[aria-label="burger"] {
+  margin-left: 2px;
+  background-image: url('icon/burger.svg');
+  background-repeat: no-repeat;
+  background-position: top 7px left 5px;
+  background-size: 15px;
+}
+
+
+.btn{
+  border: 5px solid #000;
+  background: #D9D9D9;
+  width: 209px;
+  height: 55px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #D9D9D9;
+  box-shadow: -4px -4px 0px 0px #828282 inset, 4px 4px 0px 0px #FFF inset;
+  margin-left: 58px;
+  margin-top: 10px;
+}
+
+.btn p{
+  font-size: 30px;
+}
+
+.btn2{
+  border: 5px solid #000;
+  background: #D9D9D9;
+  width: 209px;
+  height: 55px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #D9D9D9;
+  box-shadow: -4px -4px 0px 0px #828282 inset, 4px 4px 0px 0px #FFF inset;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+
+
+
+.btn2 p{
+  font-size: 30px;
+}
+
+.burger {
+  background: url('icon/burger.svg') no-repeat;
+  background-color: none;
+  width: 190.364px;
+  height: 170.372px;
+  margin-left: 55px;
+}
+
+
+.lettuce{
+  background: url('icon/lettuce.svg') no-repeat;
+  background-color: none;
+  width: 182px;
+  height: 231px;
+  margin-left: 70px;
+}
+
+.project-description-dark{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.bun{
+  background: url('icon/bun.svg') no-repeat;
+  background-color: none;
+  height: 465.5px;
+  width: 465.5px;
+  margin-top: 30px;
+  margin-left: 85px;
+
+}
+
+.trash{
+  background: url('icon/trash.svg') no-repeat;
+  background-color: none;
+  width: 190.364px;
+  height: 170.372px;
+  margin-left: 80px;
+}
+
+.bunbottom{
+  background: url('icon/bunbottom.svg') no-repeat;
+  background-color: none;
+  width: 190.364px;
+  height: 32px;
+  margin-left: 70px;
+  margin-top: 80px;
+}
+
+.btn-up{
+  background: url('icon/button-up.svg') no-repeat;
+  background-color: none;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.btn-scroll{
+  background: url('icon/button-down.svg') no-repeat;
+  background-color: none;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.btn-min{
+  background: url('icon/button-left.svg') no-repeat;
+  background-color: none;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
