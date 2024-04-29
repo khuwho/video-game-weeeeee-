@@ -326,14 +326,14 @@ section {
 }
 
 .title-bar-controls button[aria-label="Minimize"] {
-  background-image: url("icon/minimize.svg");
+  background-image: url("minimize.svg");
   background-repeat: no-repeat;
   background-position: bottom 14px left 5px;
   background-size: 15px;
 }
 
 .title-bar-controls button[aria-label="Maximize"] {
-  background-image: url("icon/maximize.svg");
+  background-image: url("maximize.svg");
   background-repeat: no-repeat;
   background-position: top 7px left 5px;
   background-size: 15px;
@@ -341,15 +341,7 @@ section {
 
 .title-bar-controls button[aria-label="Close"] {
   margin-left: 2px;
-  background-image: url('icon/close.svg');
-  background-repeat: no-repeat;
-  background-position: top 7px left 5px;
-  background-size: 15px;
-}
-
-.title-bar-controls button[aria-label="burger"] {
-  margin-left: 2px;
-  background-image: url('icon/burger.svg');
+  background-image: url('close.svg');
   background-repeat: no-repeat;
   background-position: top 7px left 5px;
   background-size: 15px;
@@ -393,7 +385,7 @@ section {
 }
 
 .burger {
-  background: url('icon/burger.svg') no-repeat;
+  background: url('burger.svg') no-repeat;
   background-color: none;
   width: 190.364px;
   height: 170.372px;
@@ -402,7 +394,7 @@ section {
 
 
 .lettuce{
-  background: url('icon/lettuce.svg') no-repeat;
+  background: url('lettuce.svg') no-repeat;
   background-color: none;
   width: 182px;
   height: 231px;
@@ -416,7 +408,7 @@ section {
 }
 
 .bun{
-  background: url('icon/bun.svg') no-repeat;
+  background: url('bun.svg') no-repeat;
   background-color: none;
   height: 465.5px;
   width: 465.5px;
@@ -426,7 +418,7 @@ section {
 }
 
 .trash{
-  background: url('icon/trash.svg') no-repeat;
+  background: url('trash.svg') no-repeat;
   background-color: none;
   width: 190.364px;
   height: 170.372px;
@@ -434,7 +426,7 @@ section {
 }
 
 .bunbottom{
-  background: url('icon/bunbottom.svg') no-repeat;
+  background: url('bunbottom.svg') no-repeat;
   background-color: none;
   width: 190.364px;
   height: 32px;
@@ -443,21 +435,21 @@ section {
 }
 
 .btn-up{
-  background: url('icon/button-up.svg') no-repeat;
+  background: url('button-up.svg') no-repeat;
   background-color: none;
   background-repeat: no-repeat;
   background-size: 50px;
 }
 
 .btn-scroll{
-  background: url('icon/button-down.svg') no-repeat;
+  background: url('button-down.svg') no-repeat;
   background-color: none;
   background-repeat: no-repeat;
   background-size: 50px;
 }
 
 .btn-min{
-  background: url('icon/button-left.svg') no-repeat;
+  background: url('button-left.svg') no-repeat;
   background-color: none;
   background-repeat: no-repeat;
   background-size: 50px;
